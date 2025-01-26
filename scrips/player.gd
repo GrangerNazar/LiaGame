@@ -36,6 +36,9 @@ func start_dialog(nps):
 	Dialogic.start("test")
 	velocity.x == 0
 	velocity.z == 0
+func start_dialog_had(hadhog):
+		Dialogic.start("hag")
+		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 
 func _physics_process(delta):
 	# Add the gravity.
